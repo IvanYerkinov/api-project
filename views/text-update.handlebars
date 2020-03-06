@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-sm-4 col-sm-offset-4">
+    <form action="/text/{{text._id}}/update" method="post">
+      <legend>Update Text</legend>
+      <div class="form-group">
+        <label for="post-title">String Body</label>
+        <input type="text" name="updatetext" class="form-control" id="post-body" placeholder="{{text.textbody}}">
+      </div>
+      <div class='text-right'>
+        <button type="submit" class="btn btn-primary">Update</button>
+      </div>
+    </form>
+  </div>
+
+</div>
